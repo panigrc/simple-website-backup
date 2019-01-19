@@ -22,7 +22,7 @@ Downloads any website and/or database using **ssh**.
 ```bash
 git clone https://github.com/panigrc/simple-website-backup.git
 chmod +x website-backup.sh
-cp website-backup.conf.example website-backup.conf
+cp website-backup.default.conf website-backup.conf
 ```
 
 Edit the `website-backup.conf` according your setup.
