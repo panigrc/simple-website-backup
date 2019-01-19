@@ -1,0 +1,27 @@
+# Where the backups should be downloaded with trailing slash
+output_path=""
+
+# SSH Configuration
+ssh_key=""
+
+# Server (ssh) Configuration
+server_host=""
+server_port=22
+server_username="root"
+
+# Backup the Website 0=FALSE 1=TRUE
+website_backup=1
+
+# Website Path with trailing slash
+website_path="/var/www/html/"
+
+# Backup the Database 0=FALSE 1=TRUE
+db_backup=1
+
+# MySQL Database Configuration
+db_name=""
+db_username=""
+db_password=""
+
+# Remove backup file after finishing downloading it 0=FALSE 1=TRUE
+cleanup=0
